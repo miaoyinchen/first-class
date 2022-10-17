@@ -133,3 +133,6 @@ tar -zcvf filename.tar.gz.DirName
 gunzip filename.gz 或 gzip -d filename.gz\
 xz -d filename.xz
 tar -zcvf filename.tar.gz
+
+**練習:列出11~20行
+tail -n +10 new.txt | head -n 10
